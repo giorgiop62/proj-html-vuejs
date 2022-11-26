@@ -28,11 +28,11 @@ export default {
 <style lang="scss" scoped>
 .hContainer {
   width: 100%;
-  height: 100vh;
+  height: 500px;
   background-image: url(../assets/home_slider.jpg);
-  background-size: cover;
-  object-fit: cover;
+  background-size: 100%;
   text-align: center;
+
 
     .album, .date {
       height: 50px;

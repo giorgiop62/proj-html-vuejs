@@ -6,8 +6,13 @@ export default {
 </script>
 
 <template>
-  <div>
-    ciaooo
+  <div class="mContainer">
+    <div class="">
+
+    </div>
+    
+
+   
   </div>
   
 </template>
