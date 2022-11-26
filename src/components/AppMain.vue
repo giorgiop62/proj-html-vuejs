@@ -70,11 +70,7 @@ export default {
   
    
   }
-  .content_3{
-    width: 100%;
-    height: 100px;
-    background-color: #ea4a56 ;
-  }
+  
   h3{
     line-height:100px
     
