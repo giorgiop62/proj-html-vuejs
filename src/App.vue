@@ -18,7 +18,7 @@ import AppFooter from './components/AppFooter.vue'
 
 <template>
   
-  <AppHeader />
+  <AppHeader/>
   <AppMain />
   <AppFooter />
 

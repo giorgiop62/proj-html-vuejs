@@ -1,7 +1,7 @@
 
 <script>
 export default {
-name:'AppFooter',
+  name: 'AppFooter',
 
 }
 
@@ -23,7 +23,7 @@ name:'AppFooter',
         <li>ciao mi chiamo giorgio</li>
 
       </ul>
-     
+
 
     </div>
 
@@ -57,44 +57,46 @@ name:'AppFooter',
 
   <div class="footer2">
     <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
+      <li>Copyright 2012-2020</li>
+      <li>AVADA THEME BY THEMEFUSION</li>
+      <li>ALL RIGHTS RESERVED</li>
+      <li>POWERED BY WORDPRESS</li>
     </ul>
 
     <div class="social">
       <ul>
-        <li><a href="#">F</a></li>
-        <li><a href="#">T</a></li>
-        <li><a href="#">I</a></li>
-        <li><a href="#">Y</a></li>
+        <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-square-youtube"></i></a></li>
       </ul>
 
     </div>
 
   </div>
 
- 
-  
+
+
 </template>
 
 
 
 <style lang="scss" scoped>
-.content{
-  background-color:#272b34 ;
+.content {
+  background-color: #272b34;
   text-align: center;
   padding: 20px;
 }
+
 .content_3 {
   text-align: center;
 
-  h3{
+  h3 {
     line-height: 100px;
   }
 
 }
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -105,14 +107,15 @@ name:'AppFooter',
   ul {
     display: flex;
   }
+
   a {
     text-decoration: none;
-    color: white;
-  
-  &:hover{
-    color: green;
+    color: #787787;
+
+    &:hover {
+      color: white;
+    }
   }
-}
 
 }
 
@@ -123,24 +126,25 @@ name:'AppFooter',
   align-items: center;
   background-color: #323843;
 
-  ul{
+  ul {
     display: flex;
- 
+
   }
-  
-  li{
-   list-style-type: none;
-   padding-left: 20px;
-   color: white;
+
+  li {
+    list-style-type: none;
+    padding-left: 20px;
+    color: #787787;
   }
-  a{
+
+  a {
     text-decoration: none;
-    color: white;
+    color: #787787
+  }
+
+  .fa-brands {
+    font-size: 20px;
   }
 
 }
-
-
-
-
 </style>

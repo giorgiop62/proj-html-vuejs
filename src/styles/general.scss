@@ -1,27 +1,46 @@
 @import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/@fortawesome/fontawesome-free/css/all.min.css'; //font awesome
+
+
 
 h1,
 h2,
 h3,
 h5,
-h6,p{
+h6,
+p {
   color: white;
 }
 
-h2::after{
+h2::after {
   content: '';
   display: block;
   border-bottom: 1px solid grey;
   width: 100px;
   margin: 1rem auto;
-
-
-
 }
 
-.content_3{
+.content_3 {
   width: 100%;
   height: 100px;
-  background-color: #ea4a56 ;
+  background-color: #ea4a56;
 }
 
+.ccc {
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.card_text {
+  background-color: hsl(219deg 15% 23%);
+  text-align: start;
+  padding: 24px;
+
+  h4 {
+    color: #ea4a56;
+  }
+
+  p {
+    color: #7d7c8d;
+  }
+}

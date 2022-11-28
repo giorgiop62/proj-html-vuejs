@@ -1,6 +1,11 @@
 <script>
+import AppMenu from './AppMenu.vue';
 export default {
-  name:'AppHeader'
+  name: 'AppHeader',
+
+  components:{
+    AppMenu
+  }
 }
 </script>
 
@@ -9,7 +14,7 @@ export default {
   <div class="hContainer">
     <header>
       <img src="/avada-music-logo.png" alt="logo">
-      <button id="menu">X</button>
+      <i class="fa-sharp fa-solid fa-bars"></i>
     </header>
     <h1>Untold Stories</h1>
     <p>Lorem ipsum dolor sit amet consectetur.</p>
@@ -19,8 +24,8 @@ export default {
   </div>
 
 
-  
-  
+
+
 </template>
 
 
@@ -33,25 +38,35 @@ export default {
   background-size: 100%;
   text-align: center;
 
+  .fa-sharp {
+    color: white;
+    font-size: 30px;
+  }
 
-    .album, .date {
-      height: 50px;
-      margin: 6px;
-      width: 130px;
+  .album,
+  .date {
+    height: 50px;
+    margin: 6px;
+    width: 130px;
 
-      a{
-        text-decoration: none;
-        color: white;
-      }
-
+    a {
+      text-decoration: none;
+      color: white;
     }
-    .album {
-      background-color: #ea4a56;
-    }
-   
+
+  }
+
+  .album {
+    background-color: #ea4a56;
+  }
+
+  .date {
+    background-color: transparent;
+  }
 
 
-    header {
+
+  header {
     padding: 30px;
     display: flex;
     justify-content: space-between;
@@ -59,6 +74,4 @@ export default {
 
 
 }
-
-
 </style>
